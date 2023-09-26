@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
-import Home from './Home';
-import Notifications from './Notifications';
+import Home from './Screens/Home';
+import Notifications from './Screens/Notifications';
 import Perkalian from './Screens/Perkalian';
 import Pembagian from './Screens/Pemabgian';
 import Penjumlahan from './Screens/Penjumlahan';
