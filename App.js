@@ -3,10 +3,10 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 import Home from './Home';
 import Notifications from './Notifications';
-import Perkalian from './Perkalian';
-import Pembagian from './Pemabgian';
-import Penjumlahan from './Penjumlahan';
-import Pengurangan from './Pengurangan';
+import Perkalian from './Screens/Perkalian';
+import Pembagian from './Screens/Pemabgian';
+import Penjumlahan from './Screens/Penjumlahan';
+import Pengurangan from './Screens/Pengurangan';
 
 const Drawer = createDrawerNavigator();
 
