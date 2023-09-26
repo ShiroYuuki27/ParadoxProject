@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import Home from './Screens/Home';
 import Notifications from './Screens/Notifications';
 import Perkalian from './Screens/Perkalian';
-import Pembagian from './Screens/Pemabgian';
+import Pembagian from './Screens/Pembagian';
 import Penjumlahan from './Screens/Penjumlahan';
 import Pengurangan from './Screens/Pengurangan';
 
