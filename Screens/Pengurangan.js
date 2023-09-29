@@ -13,7 +13,7 @@ export default function Pengurangan({navigation}) {
     return (
        <SafeAreaView style={styles.container}>
          <ScrollView style={styles.scrollView}>
-            <Text style={{ color: "blue", fontSize: 20, textAlign: "center" }}>Pembagian</Text>
+            <Text style={{ color: "blue", fontSize: 20, textAlign: "center" }}>Pengurangan</Text>
             <TextInput
                 style={styles.FormatInput}
                 placeholder="Masukan Nilai "
@@ -58,4 +58,5 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
 
-});
+  }
+);

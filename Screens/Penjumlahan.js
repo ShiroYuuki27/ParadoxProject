@@ -13,7 +13,7 @@ export default function Penjumlahan({navigation}) {
     return (
        <SafeAreaView style={styles.container}>
          <ScrollView style={styles.scrollView}>
-            <Text style={{ color: "blue", fontSize: 20, textAlign: "center" }}>Pembagian</Text>
+            <Text style={{ color: "blue", fontSize: 20, textAlign: "center" }}>Penjumlahan</Text>
             <TextInput
                 style={styles.FormatInput}
                 placeholder="Masukan Nilai "
