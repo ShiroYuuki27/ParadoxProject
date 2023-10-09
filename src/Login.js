@@ -13,6 +13,8 @@ export default function Login(props) {
             fontSize: 60,
             fontWeight: 'bold',
             marginVertical: 20,
+            
+            
           }}
         >
           Login

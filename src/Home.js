@@ -23,7 +23,7 @@ export default function Home2(props) {
                 textColor="white"
                 btnLabel="Sign Up"
                 wBtn={200}
-                
+                Press={() => props.navigation.navigate('SignUp')}
             />
 
             </View>
