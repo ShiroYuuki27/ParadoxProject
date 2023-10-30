@@ -1,7 +1,7 @@
 import { SafeAreaView, StyleSheet, Switch, Text, View } from "react-native";
 import { useColorScheme } from "nativewind";
 import { StatusBar } from "expo-status-bar";
-import ProductList from "./components/ProductList";
+import ProductList from "./components/Productlist";
 
 export default function App() {
     const { colorScheme, toggleColorScheme } = useColorScheme();
