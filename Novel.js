@@ -2,11 +2,11 @@ import * as React from 'react';
 import { Button, View } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
-import EditCustomer from './Screens/EditCustomer';
-import DeleteCustomer from './Screens/DeleteCustomer';
-import InsertData from './Screens/InsertData';
-import ShowAllCustomers from './Screens/ShowAllCustomers';
-import ViewCustomers from './Screens/ViewCustomer';
+import EditNovel from './Database/EditNovel';
+import DeleteNovel from './Database/DeleteNovel'
+import InsertNovel from './Database/InsertDataNovel'
+import ShowAllNovel from './Database/ShowAllNovel'
+import ViewNovel from './Database/ViewNovel'
 
 function HomeScreen({ navigation }) {
   return (
@@ -36,11 +36,11 @@ export default function App() {
       <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Notifications" component={NotificationsScreen} />
-        <Drawer.Screen name="Edit" component={EditCustomer} />
-        <Drawer.Screen name="Delete" component={DeleteCustomer} />
-        <Drawer.Screen name="Insert" component={InsertData} />
-        <Drawer.Screen name="Customer" component={ShowAllCustomers} />
-        <Drawer.Screen name="View" component={ViewCustomers} />
+        <Drawer.Screen name="EditNovel" component={EditNovel} />
+        <Drawer.Screen name="DeleteNovel" component={DeleteNovel} />
+        <Drawer.Screen name="InsertNovel" component={InsertNovel} />
+        <Drawer.Screen name="All Novel" component={ShowAllNovel} />
+        <Drawer.Screen name="View Novel" component={ViewNovel} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
