@@ -48,7 +48,7 @@ export default class DeleteCustomers extends Component {
       alert('Jangan Kosong Bro');
     } else {
       // ------ ini script untuk call API -----------------------------
-      var API_Url = 'http://10.0.2.2:80/vvv/DataProcess.php';
+      var API_Url = 'http://192.168.141.8/Paradox/DataProcess.php';
       var Data = {
         cid: customerid,
         pilih: 3,

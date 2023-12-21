@@ -27,7 +27,6 @@ function NotificationsScreen({ navigation }) {
   );
 }
 
-
 const Drawer = createDrawerNavigator();
 
 export default function App() {
@@ -36,11 +35,11 @@ export default function App() {
       <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Notifications" component={NotificationsScreen} />
-        <Drawer.Screen name="EditNovel" component={EditNovel} />
-        <Drawer.Screen name="DeleteNovel" component={DeleteNovel} />
-        <Drawer.Screen name="InsertNovel" component={InsertNovel} />
         <Drawer.Screen name="All Novel" component={ShowAllNovel} />
         <Drawer.Screen name="View Novel" component={ViewNovel} />
+        <Drawer.Screen name="InsertNovel" component={InsertNovel} />
+        <Drawer.Screen name="EditNovel" component={EditNovel} />
+        <Drawer.Screen name="DeleteNovel" component={DeleteNovel} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
